@@ -36,9 +36,9 @@ Here, I showcase my key technical and soft skills, supported by examples and cer
 
 Feel free to reach out to me for any questions, collaborations, or opportunities.
 
-- Email: [your.email@example.com](mailto:dhanushnamala30@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/dhanushnamala)
-- GitHub: [Your GitHub Profile](https://github.com/dhanushnamala)
+- Email: here(mailto:dhanushnamala30@gmail.com)
+- LinkedIn: here(https://www.linkedin.com/in/dhanushnamala)
+- GitHub: here (https://github.com/dhanushnamala)
 
 ---
 
