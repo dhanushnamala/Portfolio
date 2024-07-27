@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header" id="nav">
+    <input type="checkbox" name="check" id="check">
+    <label for="check" class="menu">
+      <i class='bx bx-menu' id="open-menu"></i>
+      <i class='bx bx-x' id="close-menu"></i>
+    </label>
+    <a href="index.html" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <a href="index.html" style="--i:0;">Home</a>
+      <a href="#abt" style="--i:1;">About</a>
+      <a href="#skills" style="--i:2;">Skills</a>
+      <a href="#edu">Education</a>
+      <a href="#certficate-section">Certificates</a>
+      <a href="MyResume.pdf" style="--i:3;" target="_blank">Resume</a>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+      <h1>NAMALA DHANUSH</h1>
+      <h3>FrontEnd Developer</h3>
+    <div class="icon">
+      <a href="https://www.linkedin.com/in/dhanushnamala/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+      <a href="https://twitter.com/dhanushnamala30" target="_blank"><i class="bx bxl-twitter"></i></a>
+      <a href="https://github.com/dhanushnamala" target="_blank"><i class="bx bxl-github"></i></a>
+    </div>
+    </div>
+  </section>
+
+  <section class="aboutsection" id="abt">
+    <h2 class="aboutheading">About Me</h2>
+    <div class="aboutcontent">
+      <span class="img">
+        <img src="dhanush formal photo.png" alt="Dhanush Namala Profile Photo" />
+      </span>
+      <p class="aboutpara">
+        I am a passionate and creative web developer with a strong foundation
+        in front-end technologies. My journey in web development began with a
+        curiosity to bring ideas to life on the internet, and it has since
+        evolved into a fulfilling career. I specialize in building responsive
+        and user-friendly websites and web applications. Whether it's crafting
+        elegant user interfaces or writing efficient server-side code, I enjoy
+        every aspect of the development process.
+      </p>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills_container bd-grid">
+        <div class="skills_box">
+            <h3 class="skills_subtitle">Development</h3>
+            <span class="skills_name">Html</span>
+            <span class="skills_name">Css</span>
+            <span class="skills_name">Javascript</span>
+            <span class="skills_name">PHP</span>
+            
+            <h3 class="skills_subtitle">Programming</h3>
+            <span class="skills_name">C</span>
+            <span class="skills_name">C++</span>
+            <span class="skills_name">Data Structures</span>
+
+            <h3 class="skills_subtitle">Databases</h3>
+            <span class="skills_name">SQL</span>
+            <span class="skills_name">MongoDB</span>  
+        </div>
+        <div class="skills_img">
+            <img src="img/skill.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+  <section class="aboutsection" id="edu">
+    <h2 class="aboutheading">Education</h2>
+    <div class="aboutcontent" >
+      <div class="edusection">
+        <h2>Higher Education</h2>
+        <pre>B Tech
+        Computer Science and Engineering
+        2022-2026
+        GPA: 8.35
+        SRM UNIVERSITY AP</pre>
+      </div>
+      <div class="edusection">
+        <h2>Secondary Education</h2>
+        <pre>M.P.C
+        2020-2022
+        Percentage: 88.1%
+        Sri Chaitanya Junior College</pre>
+      </div>
+      <div class="edusection">
+        <h2>Primary Education</h2>
+        <pre>2020
+        Percentage: 99.8%
+        Sri Chaitanya Institutions</pre>
+      </div>
+    </div>
+  </section>
+  
+  <section class="portfolio" id="certficate-section">
+    <h2 class="portfolioheading">Certificates</h2>
+    <div class="skillscontent">
+      <div class="cer-box" id="cer">
+        <img src="c++ intermediate in codechef.png" alt=" Codechef C++ Certifiacte">
+        <h3>Codechef C++ Certifiacte</h3>
+      </div>
+      <div class="cer-box" id="cer">
+        <img src="great learning in oops c++.png" alt="OOPS IN C++ Certifiacte">
+        <h3>OOPS IN C++ Certifiacte</h3>
+      </div>
+      <div class="cer-box" id="cer">
+        <img src="GOOGLE ANALYTICS 4 CERTIFICATE.png" alt=" Analytics 4 Certifiacte">
+        <h3>Analytics 4 Certifiacte</h3>
+      </div>
+      <div class="cer-box" id="cer">
+        <img src="Power BI simplilearn.png" alt="Power Bi Certifiacte">
+        <h3>Power Bi Certifiacte</h3>
+      </div>
+      <div class="cer-box" id="cer">
+        <img src="SOLOLEARN SQL.jpg" alt="SQL Certifiacte">
+        <h3>SQL Certifiacte</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="projectsection">
+    <h2 class="pheading">Projects</h2>
+    <div class="ag-format-container">
+      <div class="ag-courses_box">
+        <div class="ag-courses_item" >
+          <a href="https://github.com/dhanushnamala/CONTACT-MANAGER" target="_blank" class="ag-courses-item_link">
+            <div class="ag-courses-item_bg"  style="background-image: url(contact\ manager.jpg);"></div>
+            <div class="ag-courses-item_title">Contact Manager</div>
+            <div class="ag-courses-item_date-box">
+              Tech Used:
+              <span class="ag-courses-item_date">HTML, CSS, JavaScript, PHP, SQL</span>
+            </div>
+          </a>
+        </div>
+        <div class="ag-courses_item">
+          <a href="https://dhanushnamala.github.io/Quickfoo/home.html" target="_blank" class="ag-courses-item_link">
+            <div class="ag-courses-item_bg"></div>
+            <div class="ag-courses-item_title">QuickFoo</div>
+            <div class="ag-courses-item_date-box">
+              Tech Used:
+              <span class="ag-courses-item_date">HTML, CSS, JavaScript</span>
+            </div>
+          </a>
+        </div>
+        <div class="ag-courses_item">
+          <a href="https://github.com/dhanushnamala/banking-management" target="_blank" class="ag-courses-item_link">
+            <div class="ag-courses-item_bg" style="background-image: url(bank.jpg);"></div>
+            <div class="ag-courses-item_title">Banking Management</div>
+            <div class="ag-courses-item_date-box">
+              Tech Used:
+              <span class="ag-courses-item_date">C++using OOPSConcept</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contactsection" id="contact">
+    <h2 class="contactheading">Contact Me</h2>
+    <div class="contactcontent">
+      <form id="contact-form" action="https://formsubmit.co/dhanushnamala30@gmail.com" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="user_email" required>
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="user_mobile number" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="user_message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 100) {
+        nav.classList.add('nav__black');
+      } else {
+        nav.classList.remove('nav__black');
+      }
+    });
+  </script>
+</body>
+</html>
